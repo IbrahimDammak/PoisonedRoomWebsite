@@ -15,7 +15,7 @@ function validateForm(form) {
       alert("Error: PassNumber is required!");
       form.PassNumber.focus();
       return false;
-    } else if (PassNumber < 001 || PassNumber >100) {
+    } else if (PassNumber < 1 || PassNumber >100) {
       alert("Error: Pass Number must be between 001 and 100");
       form.PassNumber.focus();
       return false;
