@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto:wght@500&display=swap');
+body{
+    background-color: rgb(24, 22, 22);
+    
+}
+.text1{
+    display: flex;
+    color: aliceblue;
+    font-family: Playfair ;
+    font-style: italic;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-left: -20px;   
+}
+h1{
+    color: aliceblue;
+    font-family: Playfair ;
+    font-style: italic;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    
+}
+p{
+    color: rgb(243, 243, 243);
+    
+    font-size: 200px;
+    font-family: roboto ;
+    margin-left: 10%;
+    border-bottom: 5px solid #427754;
+    border-radius: 15px;
+    margin: 20px 30px 60px;
+    padding-left: 12%;
+}
+@media only screen and (max-width: 400px) {
+ 
+    p{
+        display: flex;
+        margin-left: 22%;
+        color: rgb(57, 165, 115);
+        text-align: center;
+        margin-top: 30%;
+        font-size: 30px;
+        font-family: roboto ;
+        
+
+    }
+}
+
+.codeMaps{
+    color: aliceblue;
+    font-family: Playfair ;
+    font-style: italic;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-left: -20px;
+    margin-top: -20px;
+ 
+}
+#logo{
+    width: 300px;
+    display: flex;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+}
+form{
+    top: 40%;
+    margin: auto;
+    text-align: center;
+    
+}
+.form{
+    margin-top: 50px;
+    
+}
+
+input{
+    border: none;
+    margin-top: 10px;
+    background-color: transparent;
+    color: aliceblue;
+    text-align: center;
+    border-bottom:2px solid #427754 ;
+    
+}
+.button{
+    text-transform: uppercase;
+    margin-top: 40px;
+    border: none;
+}
+button:hover{
+    opacity: 80%;
+}
+::-webkit-inner-spin-button{
+    display: none;
+}
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .preloader img {
+    width: 200px;
+  }
+
+  .preloader {
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+  }
+  .preloader.hide {
+    
+    display: none;
+  }
